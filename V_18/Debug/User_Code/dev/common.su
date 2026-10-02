@@ -1,4 +1,4 @@
 ../User_Code/dev/common.c:3:6:Read_Rotary_Encoder	24	static
-../User_Code/dev/common.c:19:6:Read_Rotary_Encoder_angle	24	static
-../User_Code/dev/common.c:37:6:Change_Encoder_Step	4	static
-../User_Code/dev/common.c:46:6:direction_output	8	static
+../User_Code/dev/common.c:18:6:Read_Rotary_Encoder_angle	24	static
+../User_Code/dev/common.c:35:6:Change_Encoder_Step	4	static
+../User_Code/dev/common.c:44:6:direction_output	8	static

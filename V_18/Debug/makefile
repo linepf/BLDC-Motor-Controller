@@ -167,34 +167,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := V_17
+BUILD_ARTIFACT_NAME := V_18
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-V_17.elf \
+V_18.elf \
 
 MAP_FILES += \
-V_17.map \
+V_18.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-V_17.list \
+V_18.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: V_17.elf secondary-outputs
+main-build: V_18.elf secondary-outputs
 
 # Tool invocations
-V_17.elf V_17.map: $(OBJS) $(USER_OBJS) C:\Users\linep\Desktop\BLDC_stm\V_17\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "V_17.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\linep\Desktop\BLDC_stm\V_17\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="V_17.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+V_18.elf V_18.map: $(OBJS) $(USER_OBJS) C:\Users\linep\Desktop\BLDC_stm\V_18\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "V_18.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\linep\Desktop\BLDC_stm\V_18\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="V_18.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -203,14 +203,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-V_17.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "V_17.list"
+V_18.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "V_18.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) V_17.elf V_17.list V_17.map default.size.stdout
+	-$(RM) V_18.elf V_18.list V_18.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)

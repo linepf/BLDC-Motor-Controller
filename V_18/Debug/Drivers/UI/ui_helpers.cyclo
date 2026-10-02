@@ -1,6 +1,6 @@
-C:/Users/linep/Desktop/BLDC_stm/V_17/Drivers/lvgl-release-v8.3/src/core/lv_obj_style_gen.h:505:24:lv_obj_get_style_opa	1
-C:/Users/linep/Desktop/BLDC_stm/V_17/Drivers/lvgl-release-v8.3/src/widgets/lv_slider.h:84:20:lv_slider_set_value	1
-C:/Users/linep/Desktop/BLDC_stm/V_17/Drivers/lvgl-release-v8.3/src/widgets/lv_slider.h:130:23:lv_slider_get_value	1
+C:/Users/linep/Desktop/BLDC_stm/V_18/Drivers/lvgl-release-v8.3/src/core/lv_obj_style_gen.h:505:24:lv_obj_get_style_opa	1
+C:/Users/linep/Desktop/BLDC_stm/V_18/Drivers/lvgl-release-v8.3/src/widgets/lv_slider.h:84:20:lv_slider_set_value	1
+C:/Users/linep/Desktop/BLDC_stm/V_18/Drivers/lvgl-release-v8.3/src/widgets/lv_slider.h:130:23:lv_slider_get_value	1
 ../Drivers/UI/ui_helpers.c:8:6:_ui_bar_set_property	3
 ../Drivers/UI/ui_helpers.c:14:6:_ui_basic_set_property	5
 ../Drivers/UI/ui_helpers.c:23:6:_ui_dropdown_set_property	2
