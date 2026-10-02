@@ -1,3 +1,0 @@
-../User_Code/dev/PID.c:10:6:PID_Init	1
-../User_Code/dev/PID.c:20:6:PID_update_HALL	10
-../User_Code/dev/PID.c:99:6:PID_update_BEMF	13
