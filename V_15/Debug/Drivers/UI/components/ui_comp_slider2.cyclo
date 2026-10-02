@@ -1,4 +1,0 @@
-C:/Users/linep/Desktop/BLDC_stm/V_15/Drivers/lvgl-release-v8.3/src/widgets/lv_slider.h:84:20:lv_slider_set_value	1
-C:/Users/linep/Desktop/BLDC_stm/V_15/Drivers/lvgl-release-v8.3/src/widgets/lv_slider.h:95:20:lv_slider_set_left_value	1
-C:/Users/linep/Desktop/BLDC_stm/V_15/Drivers/lvgl-release-v8.3/src/widgets/lv_slider.h:177:32:lv_slider_get_mode	3
-../Drivers/UI/components/ui_comp_slider2.c:10:12:ui_Slider2_create	2
