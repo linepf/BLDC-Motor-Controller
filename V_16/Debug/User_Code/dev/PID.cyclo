@@ -1,5 +1,0 @@
-../User_Code/dev/PID.c:10:6:PID_Init	1
-../User_Code/dev/PID.c:22:6:PID_update_HALL	10
-../User_Code/dev/PID.c:107:6:PID_update_BEMF	13
-../User_Code/dev/PID.c:201:6:Position_Control_Update	4
-../User_Code/dev/PID.c:224:6:Set_Target_Angle	4
