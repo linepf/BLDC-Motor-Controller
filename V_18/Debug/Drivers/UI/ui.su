@@ -1,0 +1,2 @@
+../Drivers/UI/ui.c:30:6:ui_init	32	static
+../Drivers/UI/ui.c:43:6:ui_destroy	8	static
