@@ -1,5 +1,0 @@
-C:/Users/linep/Desktop/BLDC_stm/V_17/Drivers/lvgl-release-v8.3/src/core/lv_disp.h:182:26:lv_scr_act	1
-../User_Code/user_main/task.c:4:6:Task_1ms	7
-../User_Code/user_main/task.c:31:6:Task_10ms	4
-../User_Code/user_main/task.c:57:6:Task_100ms	18
-../User_Code/user_main/task.c:126:6:Task_500ms	26
